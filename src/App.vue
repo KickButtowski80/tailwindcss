@@ -3,30 +3,34 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div class="px-8 py-12">
-    <div class="m-8 flex">
-      <img src="./assets/vue.svg" class="w-10 h-10 mr-6" alt="Vue logo" />
-      <h3 class="text-3xl font-bold">Working Vue 3</h3>
+  <div class="px-8 py-12 max-w-md sm:max-w-xl mx-auto">
+    <div class="flex items-center">
+      <img src="./assets/vue.svg" class="w-10 h-10
+           md:w-16 mb-3" alt="Vue logo" />
+      <h3 class="text-base md:text-3xl font-bold pl-3">Working Vue 3</h3>
     </div>
     <img src="https://nypost.com/wp-content/uploads/sites/2/2023/01/shutterstock_1770576515.jpg?quality=75&strip=all"
-      alt="" class="h-auto max-w-md
-                        rounded-lg shadow-2xl">
-    <h1 class="mt-6 text-2xl font-bold text-gray-700">You can Vue 3 from anywhere.
+      alt="" class="rounded-lg shadow-2xl
+                    mt-4 sm:h-64 sm:w-full
+                    sm:object-cover sm:object-top">
+    <h1 class="mt-6 text-2xl
+              font-bold text-gray-700
+              sm:mt-8 sm:text-3xl">You can Vue 3 from anywhere.
       <br>
       <span class="text-green-500 ">Take advantage of it.</span>
     </h1>
-    <p class="mt-2 text-gray-600 max-w-md ">
+    <p class="mt-2 sm:text-xl sm:mt-3 text-gray-600">
       Vue3 helps you to desing interactive web pages.
       It is easy to learn and easy to start.
       Let's make world an easier world by using Vue 3.
-      Vue forever
+      View Life with Vue 3 forever
     </p>
-    <div class="mt-8">
+    <div class="mt-4 sm:mt-6">
       <a href="#" class=" inline-block px-5 py-3 rounded-lg
               bg-green-500
               text-gray-500 shadow-xl
-              upercase tracking-wider
-              font-semibold text-sm">Let's Vue Today</a>
+              uppercase tracking-wider
+              font-semibold text-sm sm:text-base">Let's Vue Today</a>
     </div>
   </div>
 </template>
