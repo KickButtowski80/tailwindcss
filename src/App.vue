@@ -30,9 +30,15 @@ import HelloWorld from './components/HelloWorld.vue'
           Let's make world an easier world by using Vue 3.
           View Life with Vue 3 forever 💌
         </p>
-        <div class="mt-4 sm:mt-6">
-          <a href="#" class="btn px-10">
-            Let's Vue Today
+        <div class="mt-4 space-x-3 sm:mt-6">
+          <a href="#" class="btn btn-primary shadow-xl
+           hover:-translate-y-0.5 hover:translate-x-0.5
+           transition
+">
+            Let's Vue Today 📅
+          </a>
+          <a href="#" class="btn btn-secondary">
+            Learn More 📓
           </a>
         </div>
       </div>
