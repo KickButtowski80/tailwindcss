@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div class="grid  lg:grid-cols-2 2xl:grid-cols-5
                     bg-gray-100">
     <div class="px-8 py-12 max-w-md sm:max-w-xl mx-auto lg:px-10 lg:py-24
-                    lg:max-w-full xl:mr-0 2xl:col-span-2">
+                    lg:max-w-full xl:mr-0 2xl:mx-auto 2xl:col-span-2">
       <div class="xl:max-w-xl">
         <div class="flex items-center">
           <img src="./assets/vue.svg" class="w-10 h-10
