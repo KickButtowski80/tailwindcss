@@ -31,15 +31,7 @@ import HelloWorld from './components/HelloWorld.vue'
           View Life with Vue 3 forever 💌
         </p>
         <div class="mt-4 sm:mt-6">
-          <a href="#" class=" inline-block px-5 py-3 rounded-lg
-                          bg-green-500 hover:bg-green-400
-                          hover:-translate-y-0.5 hover:translate-x-0.5
-                          transition focus:outline-none focus:ring focus:ring-offset-2
-                          focus:ring-green-500 focus:ring-opacity-50
-                          active:bg-green-900 active:text-white
-                          text-gray-500 shadow-xl
-                          uppercase tracking-wider
-                          font-semibold text-sm sm:text-base">
+          <a href="#" class="btn px-10">
             Let's Vue Today
           </a>
         </div>
