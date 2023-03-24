@@ -15,9 +15,11 @@
         <div class="flex items-center rounded-lg
                   bg-white shadow-lg overflow-hidden">               
             <img :src="imageUrl" :alt="imageAlt"
-            class="h-40 w-32 md:h-64 md:w-40
-                  max-w-md object-cover object-center
-                  flex-shrink-0 rounded-lg">
+            class="h-40 w-auto
+                   md:h-64
+                  
+                   object-cover object-center
+                   flex-shrink-0 rounded-lg">
             <div class="px-6 py-4 flex-shrink-1">
               <div class="text-sm md:text-lg lg:text-2xl
                           font-semibold text-gray-800">
