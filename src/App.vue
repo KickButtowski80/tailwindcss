@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import PopularDestination from './components/PopularDestination.vue'
 </script>
 
 <template>
@@ -30,7 +30,7 @@ import HelloWorld from './components/HelloWorld.vue'
           Let's make world an easier world by using Vue 3.
           View Life with Vue 3 forever 💌
         </p>
-        <div class="mt-4 space-x-3 sm:mt-6">
+        <div class="mt-4 space-x-3 sm:mt-6 flex">
           <a href="#" class="btn btn-primary shadow-xl
            hover:-translate-y-0.5 hover:translate-x-0.5
            transition
@@ -48,6 +48,7 @@ import HelloWorld from './components/HelloWorld.vue'
         alt="" class="absolute inset-0 w-full h-full object-cover object-center">
     </div>
   </div>
+  <PopularDestination/>
 </template>
 
 
