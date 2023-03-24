@@ -12,16 +12,17 @@
       <div class="mt-6 grid gap-3 md:gap-6 md:grid-cols-2 2xl:grid-cols-3">
         <div v-for="{city,imageUrl,averagePrice,propertyCount,imageAlt} of popularDestinations"
               :key='city'>
-        <div class="flex items-center rounded-lg
+        <div class="flex items-center
+                    rounded-lg
                   bg-white shadow-lg overflow-hidden">               
             <img :src="imageUrl" :alt="imageAlt"
             class="h-40 w-auto
                    md:h-64
-                  
+                   md:w-1/2
                    object-cover object-center
                    flex-shrink-0 rounded-lg">
-            <div class="px-6 py-4 flex-shrink-1">
-              <div class="text-sm md:text-lg lg:text-2xl
+            <div class="pl-3 flex-shrink-1">
+              <div class="text-xs md:text-sm lg:text-2xl
                           font-semibold text-gray-800">
                 <h3>{{city}}</h3>
                 <p class="text-gray-600">${{averagePrice}}/night average</p>
