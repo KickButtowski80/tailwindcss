@@ -19,9 +19,10 @@
             class="h-40 w-auto
                    md:h-64
                    md:w-1/2
+                   
                    object-cover object-center
                    flex-shrink-0 rounded-lg">
-            <div class="pl-3 flex-shrink-1">
+            <div class="px-4 sm:mx-auto flex-shrink-1">
               <div class="text-xs md:text-sm lg:text-2xl
                           font-semibold text-gray-800">
                 <h3>{{city}}</h3>
