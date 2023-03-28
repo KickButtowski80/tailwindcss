@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="">
+
     <div class="px-8 py-12 max-w-md sm:max-w-2xl
                 mx-auto lg:px-10 lg:py-24
                 lg:max-w-full xl:mr-0 2xl:mx-auto
@@ -37,7 +37,6 @@
         </div>
       </div>
     </div>  
-  </div>
 </template>
 <script>
 import popularDestinations from '../data/popularDestinations';
