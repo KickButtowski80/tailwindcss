@@ -9,7 +9,8 @@
       <p class='mt-2 text-gray-600 '>A selection of great vue 3 friendly citites with lots to
         see and explore
       </p>    
-      <div class="mt-6 grid gap-3 md:gap-6 md:grid-cols-2 2xl:grid-cols-3">
+      <div class="mt-6 grid gap-3 md:gap-6
+                  sm:grid-cols-2 2xl:grid-cols-3">
         <div v-for="{city,imageUrl,averagePrice,propertyCount,imageAlt} of popularDestinations"
               :key='city'>
         <div class="flex items-center
@@ -17,14 +18,12 @@
                   bg-white shadow-lg overflow-hidden">               
             <img :src="imageUrl" :alt="imageAlt"
             class="h-40 w-auto
-                   md:h-64
-                   md:w-1/2
-                   
+                   md:h-64 md:w-1/2                   
                    object-cover object-center
                    flex-shrink-0 rounded-lg">
           
-              <div class="mx-auto  text-xs md:text-sm lg:text-2xl
-                          font-semibold text-gray-800">
+              <div class="mx-auto text-xs md:text-sm
+                          lg:text-2xl font-semibold text-gray-800">
                 <h3>{{city}}</h3>
                 <p class="text-gray-600">${{averagePrice}}/night average</p>
                 <div class="mt-2">
