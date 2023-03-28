@@ -22,8 +22,8 @@
                    
                    object-cover object-center
                    flex-shrink-0 rounded-lg">
-            <div class="px-4 sm:mx-auto flex-shrink-1">
-              <div class="text-xs md:text-sm lg:text-2xl
+          
+              <div class="mx-auto  text-xs md:text-sm lg:text-2xl
                           font-semibold text-gray-800">
                 <h3>{{city}}</h3>
                 <p class="text-gray-600">${{averagePrice}}/night average</p>
@@ -32,7 +32,7 @@
                     Explore {{propertyCount }} properties
                   </a>
                 </div>
-              </div>
+            
             </div>
           </div>
         </div>
