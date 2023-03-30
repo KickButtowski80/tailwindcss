@@ -19,10 +19,6 @@
         :key="city"
         class="relative"
       >
-        <!-- <div
-          class="rounded-lg bg-white
-          shadow-lg relative "
-        > -->
           <img
             :src="imageUrl"
             :alt="imageAlt"
@@ -35,27 +31,25 @@
             font-bold lg:text-2xl"
           >
           <div
-            class="bg-white bg-opacity-30
+            class="bg-white bg-opacity-70
                      backdrop-filter  backdrop-blur-xs
-                     absolute top-0 left-0 translate-y-1/2
-                     rounded-full
-                     w-full h-1/2 text-center
-                     flex flex-col justify-center ">
-            <h3 class=" ">{{ city }}</h3>
-            <p class="text-gray-600">${{ averagePrice }}/night average</p>
+                     absolute top-0 left-0 translate-x-full                    
+                     w-1/2 h-full text-center
+                     flex flex-col justify-center text-gray-500 
+                     hover:text-green-700  ">
+            <h3 class="text-lg ">{{ city }}</h3>
+            <p class="">${{ averagePrice }}/night average</p>
             <div class="mt-2">
               <a
                 href="#"
-                class="text-green-500 hover:text-green-400
+                class="text-white-500 
                  font-semibold text-sm"
               >
                 Explore {{ propertyCount }} properties
               </a>
             </div>
-          </div>
-         
-          </div>
-        <!-- </div> -->
+          </div>         
+        </div>
       </div>
     </div>
   </div>
