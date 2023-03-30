@@ -37,7 +37,7 @@
                      w-1/2 h-full text-center
                      flex flex-col justify-center text-gray-500 
                      hover:text-green-700  ">
-            <h3 class="text-lg ">{{ city }}</h3>
+            <h3 class="text-lg md:text-2xl">{{ city }}</h3>
             <p class="">${{ averagePrice }}/night average</p>
             <div class="mt-2">
               <a
