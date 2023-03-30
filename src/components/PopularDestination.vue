@@ -28,21 +28,19 @@
             :alt="imageAlt"
             class=" w-full md:h-64
              object-cover object-center
-             rounded-lg
-              
-             "
+             rounded-lg"
            />
-
           <div
-            class="  text-lg md:text-sm
-            font-bold lg:text-2xl
-            absolute top-0 left-0
-            w-full h-full
-            flex flex-col justify-center  text-center 
-            "
+            class="text-lg md:text-sm
+            font-bold lg:text-2xl"
           >
           <div
-            class="bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg">
+            class="bg-white bg-opacity-30
+                     backdrop-filter  backdrop-blur-xs
+                     absolute top-0 left-0 translate-y-1/2
+                     rounded-full
+                     w-full h-1/2 text-center
+                     flex flex-col justify-center ">
             <h3 class=" ">{{ city }}</h3>
             <p class="text-gray-600">${{ averagePrice }}/night average</p>
             <div class="mt-2">
