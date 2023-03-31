@@ -31,7 +31,7 @@
             font-bold lg:text-2xl"
           >
           <div
-            class="bg-white bg-opacity-70
+            class="bg-white bg-opacity-70 hover:bg-opacity-90
                      backdrop-filter  backdrop-blur-xs
                      absolute top-0 left-0 translate-x-full                    
                      w-1/2 h-full text-center
