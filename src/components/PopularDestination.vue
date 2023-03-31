@@ -18,7 +18,9 @@
           propertyCount,
           imageAlt,
         } of popularDestinations" :key="city" class="relative">
-          <img :src="imageUrl" :alt="imageAlt" class=" w-full md:h-64
+          <img :src="imageUrl" :alt="imageAlt" class=" 
+              
+               w-full md:h-64
                object-cover object-center
                rounded-lg" />
           <div class="text-lg md:text-sm
@@ -28,7 +30,7 @@
                        absolute top-0 left-0 translate-x-full                    
                        w-1/2 h-full text-center
                        flex flex-col justify-center text-gray-500 
-                       hover:text-green-700  ">
+                       hover:text-green-700  rounded-lg  ">
               <h3 class="text-lg md:text-2xl">{{ city }}</h3>
               <p class="text-sm md:text-base">${{ averagePrice }}/night average</p>
               <div class="mt-2">
