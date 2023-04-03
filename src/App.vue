@@ -10,16 +10,18 @@ import PopularDestination from './components/PopularDestination.vue'
                 lg:max-w-full 2xl:mx-auto 2xl:col-span-2">
       <div class="xl:max-w-xl">
         <div class="flex items-center">
-          <img src="./assets/vue.svg" class="w-10 h-10
-                         md:w-16 mb-3" alt="Vue logo" />
-          <h3 class="text-base md:text-3xl font-bold pl-3">Working Vue 3</h3>
+          <img src="./assets/vue.svg"
+               class="w-10 h-10  md:w-16 mb-3 "
+               alt="Vue logo"
+               />
+          <h3 class="text-base md:text-3xl text-brand-dark font-bold pl-3">Working Vue 3</h3>
         </div>
         <img src="https://nypost.com/wp-content/uploads/sites/2/2023/01/shutterstock_1770576515.jpg?quality=75&strip=all"
           alt="" class="rounded-lg shadow-2xl
                         mt-4 sm:h-64 sm:w-full
                         sm:object-cover sm:object-top
                         lg:hidden">
-        <h1 class="mt-6 text-base
+        <h1 class="mt-6 text-base font-headline 
                   font-bold text-gray-700
                   sm:mt-8 sm:text-3xl lg:text-2xl xl:text-4xl">You can Vue 3 from anywhere.
           <br class="">
