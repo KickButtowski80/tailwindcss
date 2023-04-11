@@ -3,15 +3,16 @@ import PopularDestination from './components/PopularDestination.vue'
 </script>
 
 <template>
-  <div class="grid lg:grid-cols-2  md:col-span-3 2xl:grid-cols-5
+  <div class="grid lg:grid-cols-2 
+              md:col-span-3 2xl:grid-cols-5
               bg-gray-100">
-    <div class="px-8 py-12 max-w-md
+    <div class="px-8 md:px-0 lg:px-8 py-12 max-w-md
                 sm:max-w-xl mx-auto lg:py-24
                 lg:max-w-full 2xl:mx-auto 2xl:col-span-2">
       <div class="xl:max-w-xl">
         <div class="flex items-center">
           <img src="./assets/vue.svg"
-               class="w-10 h-10  md:w-16 mb-3 "
+               class="w-10 h-10  md:w-16 mb-3 aspect-square"
                alt="Vue logo"
                />
           <h3 class="text-base md:text-3xl text-brand-dark font-bold pl-3">Working Vue 3</h3>
