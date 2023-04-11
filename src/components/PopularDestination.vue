@@ -5,7 +5,7 @@
       sm:max-w-2xl mx-auto
       lg:px-10 lg:py-24 lg:max-w-full
       xl:mr-0 2xl:mx-auto 2xl:col-span-2">
-      <h1 class="text-3xl text-gray-900 font-semibold">Popular Destinations</h1>
+      <h1 class="text-2xl md:text-3xl text-gray-900 font-semibold">Popular Destinations</h1>
       <p class="md:text-2xl mt-2 text-gray-600
                 md:font-semibold">
         A selection of great vue 3 friendly citites with lots to see and explore
